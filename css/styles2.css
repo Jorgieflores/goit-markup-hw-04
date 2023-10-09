@@ -189,10 +189,19 @@ button:hover {
     color: var(--CLOUD);
 }
 
-.social-icons {
+.social-media-icons {
     display: flex;
     align-items: center;
     gap: 24px;
+    cursor: pointer;
+}
+
+.social-icons {
+    transition: 0.3s ease;
+}
+
+.social-icons:hover {
+    transform: scale(0.8);
 }
 
 .pad {

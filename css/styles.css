@@ -171,12 +171,16 @@ h1 {
     border-radius: 4px;
     background: var(--CLOUD, #F4F4FD);
     padding-bottom: 20px;
+    transition: .3s ease;
+}
+
+.benefits-icon:hover {
+    transform: scale(1.2);
 }
 
 .benefits-item h3 {
     padding: 15px 0px;
 }
-
 
 
 /* END OF BENEFITS AND GOAL SECTION  */
@@ -253,12 +257,21 @@ h1 {
     /* margin: 4px; */
 }
 
-.social-icons {
+.social-media-icons {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px 0px;
     gap: 24px;
+    cursor: pointer;
+}
+
+.social-icons{
+    transition: 0.3s ease;
+}
+
+.social-icons:hover {
+    transform: scale(0.8);
 }
 
 /* OUR TEAM SECTION  */
@@ -278,11 +291,16 @@ section h2 {
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
-.customers-list {
+.customers-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
+    transition: .3s ease;
+}
+
+.customers-icon:hover{
+    transform: scale(1.2);
 }
 /* END OF CUSTOMERS SECTION  */
 
